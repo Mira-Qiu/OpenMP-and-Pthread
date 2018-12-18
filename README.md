@@ -1,16 +1,16 @@
 # OpenMP-and-Pthread
 
-# Question 1 (A serial C program):
+## Question 1 (A serial C program):
 Suppose the run-time of a serial program is given by Tserial= n2, where the units of the run-time are in microseconds. Suppose that a parallelization of this program has run-time Tparallel= (n2/p) + log2(p). Write a program that ﬁnds the speedups and efﬁciencies of this program for various values of n and p. Run your program with n= 10, 20, 40, . . . ,320, and p= 1,2,4, . . .,128.<br><br>
 
-# Question 2: (MPI)
+## Question 2: (MPI)
 
-# Question 3 :(PThread)
+## Question 3 :(PThread)
 Write a parallel program using pthread to accomplish the same as the following serial program. For the following serial program, the user enters a line and the program outputs the number of occurrences of each character.
 For the parallel program if we have n threads we should divide the line into n segments and let each thread counts the characters of its segment.
 Note: Do not count the space or the tab characters.<br><br>
 
-#Question 4 (OpenMP): 
+## Question 4 (OpenMP): 
 
 Write a program using OpenMP to hire 8 threads to accomplish the following: <br>
 a) Declare a shared array: a of type integer of size 800.<br>
